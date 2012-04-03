@@ -1,0 +1,25 @@
+{
+  "name": "sample-server",
+  "version": "0.0.0",
+  "dependencies": {
+    "mongoose": {
+      "version": "2.5.13",
+      "dependencies": {
+        "hooks": {
+          "version": "0.2.0"
+        },
+        "mongodb": {
+          "version": "0.9.9-7",
+          "dependencies": {
+            "bson": {
+              "version": "0.0.4"
+            }
+          }
+        }
+      }
+    },
+    "carrier": {
+      "version": "0.1.7"
+    }
+  }
+}
